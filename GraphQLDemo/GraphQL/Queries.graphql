@@ -1,0 +1,17 @@
+
+query SpecificCountry($country: ID!) {
+  country(code: $country) {
+    name
+    native
+    capital
+    currency
+    emoji
+    languages {
+      name
+    }
+    states {
+      name
+      code
+    }
+  }
+}

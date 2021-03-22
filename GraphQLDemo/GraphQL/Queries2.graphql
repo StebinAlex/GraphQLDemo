@@ -1,0 +1,11 @@
+
+query getCountriesList {
+  countries {
+    name
+    emoji
+    capital
+    code
+  }
+}
+
+
